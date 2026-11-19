@@ -48,7 +48,7 @@ a.btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .ttl{font-size:16px;font-weight:600;line-height:1.4;overflow-wrap:anywhere}
 .arrow{flex:none;font-size:20px;color:var(--muted)}
 .state{text-align:center;color:var(--muted);font-size:15px;padding:36px 8px}
-footer{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);text-align:center}
+.notice{margin:-6px 0 20px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);font-size:13.5px;line-height:1.5;color:var(--muted);text-align:center}
 </style>
 </head>
 <body>
@@ -59,14 +59,13 @@ footer{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font-si
     <p class="bio">여행·절세·금융 정보를 정리해요</p>
   </header>
 
+  <p class="notice" role="note">※ 제휴 마케팅 활동의 일환으로 소정의 수수료를 지급받습니다.</p>
+
   <main>
     <ul id="list" aria-live="polite"></ul>
     <p id="state" class="state">링크를 불러오는 중이에요</p>
   </main>
 
-  <footer>
-    이 페이지의 일부 링크는 제휴 마케팅 활동의 일환으로, 구매·예약 발생 시 수수료를 제공받을 수 있습니다.
-  </footer>
 </div>
 
 <script>
